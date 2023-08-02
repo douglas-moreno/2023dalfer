@@ -10,6 +10,7 @@ class Diametro extends Model
     use HasFactory;
 
     protected $fillable = [
+        'codigo',
         'valor',
     ];
 }

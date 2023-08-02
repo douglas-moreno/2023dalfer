@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('diametros', function (Blueprint $table) {
             $table->id();
+            $table->string('codigo');
             $table->string('valor');
             $table->timestamps();
         });

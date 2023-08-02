@@ -10,6 +10,7 @@ class Grau extends Model
     use HasFactory;
 
     protected $fillable = [
+        'codigo',
         'valor',
     ];
 }

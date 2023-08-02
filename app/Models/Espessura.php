@@ -10,6 +10,7 @@ class Espessura extends Model
     use HasFactory;
 
     protected $fillable = [
+        'codigo',
         'valor',
     ];
 }

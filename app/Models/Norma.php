@@ -10,6 +10,7 @@ class Norma extends Model
     use HasFactory;
 
     protected $fillable = [
+        'codigo',
         'valor',
     ];
 }

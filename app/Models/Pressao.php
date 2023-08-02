@@ -10,6 +10,7 @@ class Pressao extends Model
     use HasFactory;
 
     protected $fillable = [
+        'codigo',
         'valor',
     ];
 }
