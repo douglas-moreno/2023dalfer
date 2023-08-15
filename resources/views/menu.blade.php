@@ -5,15 +5,18 @@
         </h2>
     </x-slot>
 
-    <div class="flex gap-4 justify-center">
-        <div>
-            <x-button indigo label="Importar - Omie" href="#" /> {{--   "{{ route('pre-faturamento') }}" /> --}}
+    <div class="flex gap-4 justify-center p-6">
+        <div class="flex px-10 py-4">
+            <a class="p-4 bg-blue-400 rounded border border-blue-900 hover:bg-blue-900 hover:text-white"
+                href="{{ route('presale') }}">Importar</a>
         </div>
-        <div>
-            <x-button positive label="Faturamento" href="#" /> {{--   "{{ route('faturamento.index') }}" />  --}}
+        <div class="flex px-10 py-4">
+            <button class="p-4 bg-blue-400 rounded border border-blue-900 hover:bg-blue-900 hover:text-white" positive
+                label="Faturamento" href="#">Faturamento</button> {{--   "{{ route('faturamento.index') }}" />  --}}
         </div>
-        <div>
-            <x-button positive label="Engenharia" href="#" />
+        <div class="flex px-10 py-4">
+            <button class="p-4 bg-blue-400 rounded border border-blue-900 hover:bg-blue-900 hover:text-white" positive
+                label="Engenharia" href="#">Engenharia</button>
         </div>
     </div>
 </x-app-layout>
