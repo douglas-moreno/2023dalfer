@@ -4,9 +4,12 @@ namespace App\Livewire;
 
 use App\Models\preSale;
 use Livewire\Component;
+use Livewire\WithPagination;
 
 class PreSaleForm extends Component
 {
+    use WithPagination;
+
     public string $search = '';
 
     protected $queryString = ['search'];
