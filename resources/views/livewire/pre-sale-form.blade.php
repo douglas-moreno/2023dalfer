@@ -1,7 +1,7 @@
 <div>
-    <table class="w-full">
+    <table class="w-full border border-black border-solid">
         <caption class="p-2">
-            <button indigo wire:click="update" spinner="update" label="Atualizar" />
+            <button wire:click="update" spinner="update" label="Atualizar" />
         </caption>
         <tr>
             <td class="py-2">
